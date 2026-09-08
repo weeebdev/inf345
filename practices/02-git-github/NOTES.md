@@ -6,5 +6,11 @@ Today I learned about DevOps concept, Git, Git workflow, Git branching, Git add/
 
 ## A command I want to remember
 
+git add .
+
+git add FILE.md
+
+git commit -m "message you want"
+
 
 
