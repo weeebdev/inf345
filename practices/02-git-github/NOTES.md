@@ -1,7 +1,10 @@
 # Practice 2 Notes
 
 ## What I learned about Git today
-(replace this line with something real)
+
+I learned that git add prepares changes for the next commit.
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+
+git status - I use it to check which files have been changed or staged.
+
