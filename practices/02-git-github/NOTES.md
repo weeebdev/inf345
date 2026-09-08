@@ -1,6 +1,6 @@
 # Practice 2 Notes
 
-## What I learned about Git today
+## I learned that the staging area allows you to group related changes together before making a commit.
 (replace this line with something real)
 
 ## A command I want to remember
