@@ -4,4 +4,4 @@
 What I learned about Git today: git add only stages a file, the change is not saved in history until git commit runs.
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+A command I want to remember: git status — run it before every commit to check which files are staged.
