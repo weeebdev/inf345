@@ -1,7 +1,7 @@
 # Practice 2 Notes
 
 ## What I learned about Git today
-(replace this line with something real)
+today i was learned about git, how it works and how to use it lololoshka minecraft
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+git add and git commit commands to add and commit changes to the repository
