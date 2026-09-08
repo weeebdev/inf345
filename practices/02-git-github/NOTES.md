@@ -1,2 +1,2 @@
 I learned how the Git staging area works and how to create individual commits for specific changes.
-A command I want to remember
+git status — checks the current state of the working directory and staging area.
