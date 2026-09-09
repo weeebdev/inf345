@@ -4,4 +4,4 @@
 Learn what Git commits are
 
 ## git diff
-(replace this line with an actual command and when you'd use it)
+Remember git diff command
