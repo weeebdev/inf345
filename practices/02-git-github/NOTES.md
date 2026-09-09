@@ -4,4 +4,4 @@
 Git tracks snapshots of the project rather than differences, and separates staging with git add from committing with git commit.
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+git status - use it to check modified files and see what is staged for commit
