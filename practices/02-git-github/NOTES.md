@@ -1,7 +1,10 @@
 # Practice 2 Notes
 
 ## What I learned about Git today
-(replace this line with something real)
+
+(I learned that `git add` stages changes, and only staged files go into the next commit.)
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+
+(git status - shows which files are changed or staged before making a commit.)
+
