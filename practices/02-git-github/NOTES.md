@@ -4,4 +4,4 @@
 I learned that before creating a commit, I need to add my changes to the staging area using git add.
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+I used `git status` to check the state of my files before making commits.
