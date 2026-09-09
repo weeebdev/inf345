@@ -6,5 +6,5 @@
 
 ## A command I want to remember
 
-(`git status` — shows which files are changed or staged before making a commit.)
+(git status - shows which files are changed or staged before making a commit.)
 
