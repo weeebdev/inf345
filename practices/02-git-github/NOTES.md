@@ -1,7 +1,7 @@
 # Practice 2 Notes
 
-## What I learned about Git today
+## I learned that git add puts specific changes into the staging area
 (replace this line with something real)
 
-## A command I want to remember
+## git status
 (replace this line with an actual command and when you'd use it)
