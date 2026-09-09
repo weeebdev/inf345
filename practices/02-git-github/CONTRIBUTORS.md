@@ -1,1 +1,1 @@
-Аты-жөніңіз
+Kanatbek Rassul
