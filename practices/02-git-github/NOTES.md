@@ -1,7 +1,7 @@
 # Practice 2 Notes
 
-## What I learned about Git today
-(replace this line with something real)
+## I learned git changes and save them as separate commits. 
+Learn what Git commits are
 
-## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+## git diff
+Remember git diff command
