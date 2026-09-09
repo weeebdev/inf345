@@ -1,7 +1,7 @@
 # Practice 2 Notes
 
-## What I learned about Git today
-(replace this line with something real)
+##  I learned about Git that i can manage versions of my projects with it
 
-## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+
+## git status - checks current state of files
+
