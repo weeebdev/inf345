@@ -4,4 +4,4 @@
 Learn first git command like clone, push, commit
 
 ## A command I want to remember
-git clone
+git status - checks status
