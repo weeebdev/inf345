@@ -1,6 +1,6 @@
 # Practice 2 Notes
 
-## What I learned about Git today
+## Today I have learned fork and clone repo and after how to commit an changes,and learned how to clone repo wihout gd cli
 (replace this line with something real)
 
 ## A command I want to remember
