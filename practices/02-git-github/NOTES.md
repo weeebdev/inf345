@@ -6,5 +6,5 @@ Today I learned that `git add` only stages changes — it doesn't save them perm
 
 ## A command I want to remember
 
-(replace this line with an actual command and when you'd use it)
+`git diff --staged` — I'd use this right before committing, to double-check exactly what changes are about to go into the commit.
 
