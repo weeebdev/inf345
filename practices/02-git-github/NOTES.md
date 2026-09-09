@@ -4,4 +4,4 @@
 (Git staging lets me review changes before commit)
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+(git status shows current state of working directory)
