@@ -4,4 +4,4 @@
 My name is Alpamys, I learned about commiting some note in git
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+git commit, git add, git push, git pull and etc.
