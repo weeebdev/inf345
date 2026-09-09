@@ -1,6 +1,6 @@
 # Practice 2 Notes
 
-## What I learned about Git today
+##  I learned about Git that i can manage versions of my projects with it
 (replace this line with something real)
 
 ## A command I want to remember
