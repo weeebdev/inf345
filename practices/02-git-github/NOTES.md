@@ -4,4 +4,4 @@
 I learned that staging lets me choose exactly which changes belong in the next commit.
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+`git diff --staged` shows exactly what I have selected for the next commit, so I would use it before committing to review the staged changes.
