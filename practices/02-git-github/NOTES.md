@@ -4,4 +4,4 @@
 I learned that Git lets me track changes and save them as separate commits.
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it) 
+git status — I will use it to check which files have been changed or staged.
