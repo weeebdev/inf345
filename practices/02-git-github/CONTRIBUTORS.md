@@ -1,0 +1,1 @@
+Zhansaya Seidakhmetova
