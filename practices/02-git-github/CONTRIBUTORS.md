@@ -1,0 +1,1 @@
+Nartay Zhaksybay
