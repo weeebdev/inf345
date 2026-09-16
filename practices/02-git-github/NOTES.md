@@ -1,7 +1,7 @@
 # Practice 2 Notes
 
 ## What I learned about Git today
-(replace this line with something real)
+I learned that Git allows me to choose which changes will be included in the next commit by staging them with "git add"
 
 ## A command I want to remember
-(replace this line with an actual command and when you'd use it)
+git diff - this command is useful when you want to see the changes you made before commiting them
