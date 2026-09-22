@@ -36,13 +36,20 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "npm"
 
+      # npm ci is preferred (reproducible), but it hard-fails whenever the
+      # lockfile was written by a different npm major than the runner's.
+      # The deck build doesn't warrant breaking publishing over that, so
+      # fall back to npm install and carry on.
       - name: Install dependencies
         run: |
           if [ -f package-lock.json ]; then
-            npm ci
+            npm ci || {
+              echo "::warning::npm ci failed (lockfile/npm mismatch) — falling back to npm install"
+              npm install
+            }
           else
             npm install
           fi
