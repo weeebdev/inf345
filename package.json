@@ -6,13 +6,16 @@
     "lecture:01": "slidev lectures/01-intro/slides.md --open",
     "lecture:02": "slidev lectures/02-git-github/slides.md --open",
     "lecture:03": "slidev lectures/03-containers-101/slides.md --open",
+    "lecture:04": "slidev lectures/04-images-layers/slides.md --open",
     "build:01": "slidev build lectures/01-intro/slides.md --out dist/01-intro --base /inf345/01-intro/",
     "build:02": "slidev build lectures/02-git-github/slides.md --out dist/02-git-github --base /inf345/02-git-github/",
     "build:03": "slidev build lectures/03-containers-101/slides.md --out dist/03-containers-101 --base /inf345/03-containers-101/",
+    "build:04": "slidev build lectures/04-images-layers/slides.md --out dist/04-images-layers --base /inf345/04-images-layers/",
     "export:01": "slidev export lectures/01-intro/slides.md --output pdfs/01-intro.pdf",
     "export:02": "slidev export lectures/02-git-github/slides.md --output pdfs/02-git-github.pdf",
     "export:03": "slidev export lectures/03-containers-101/slides.md --output pdfs/03-containers-101.pdf",
-    "export:all": "npm run export:01 && npm run export:02 && npm run export:03"
+    "export:04": "slidev export lectures/04-images-layers/slides.md --output pdfs/04-images-layers.pdf",
+    "export:all": "npm run export:01 && npm run export:02 && npm run export:03 && npm run export:04"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.2.14",

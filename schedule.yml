@@ -25,7 +25,7 @@ weeks:
     module: containers
     topic: Images, layers, multi-stage builds
     activity: Lecture & hands-on lab
-    lecture: null
+    lecture: lectures/04-images-layers/slides.md
     lab_due: null
   - week: 5
     module: containers
