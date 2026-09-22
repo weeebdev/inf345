@@ -46,10 +46,17 @@ echo "Discovered ${#sorted_slugs[@]} lecture deck(s): ${sorted_slugs[*]}"
 
 for slug in "${sorted_slugs[@]}"; do
   src="lectures/$slug/slides.md"
-  out="$OUT_DIR/$slug"
+  # --out MUST be absolute: slidev resolves a relative --out against the
+  # entry file's own directory, not the cwd, so "dist/$slug" silently lands
+  # in lectures/$slug/dist/$slug and the published site 404s.
+  out="$REPO_ROOT/$OUT_DIR/$slug"
   base="$BASE_PREFIX/$slug/"
-  echo "::group::Building $slug"
+  echo "::group::Building $slug -> $out"
   npx slidev build "$src" --out "$out" --base "$base"
+  if [ ! -f "$out/index.html" ]; then
+    echo "::error::$slug built but $out/index.html is missing" >&2
+    exit 1
+  fi
   echo "::endgroup::"
 done
 
