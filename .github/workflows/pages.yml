@@ -1,0 +1,70 @@
+name: "Pages: Build & Deploy Lectures"
+
+# Builds every Slidev lecture deck under lectures/*/slides.md and publishes
+# them all to GitHub Pages at https://weeebdev.github.io/inf345/.
+#
+# Lecture decks are discovered dynamically by scripts/build-pages.sh, so
+# adding a new lectures/NN-slug/slides.md requires no changes here.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "lectures/**"
+      - "pdfs/**"
+      - "scripts/build-pages.sh"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build all lecture decks
+        run: bash scripts/build-pages.sh
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
