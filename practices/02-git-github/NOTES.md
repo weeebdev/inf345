@@ -1,6 +1,6 @@
 # Practice 2 Notes
 
-## What I learned about Git today
+I learned that git add stages selected changes, while git commit saves those staged changes as a snapshot in the repository history.
 (replace this line with something real)
 
 ## A command I want to remember
