@@ -1,0 +1,43 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#132743"/>
+      <stop offset="100%" stop-color="#0e4f77"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- soft glow accent, upper right -->
+  <circle cx="1650" cy="180" r="420" fill="url(#glow)"/>
+
+  <!-- pipeline / network motif, bottom-right, subtle -->
+  <g stroke="#7dd3fc" stroke-width="2" opacity="0.35" fill="none">
+    <path d="M 1180 980 L 1340 900 L 1500 940 L 1660 860 L 1840 900"/>
+    <path d="M 1340 900 L 1340 780"/>
+    <path d="M 1500 940 L 1500 1040"/>
+    <path d="M 1660 860 L 1660 760"/>
+  </g>
+  <g fill="#7dd3fc" opacity="0.55">
+    <circle cx="1180" cy="980" r="8"/>
+    <circle cx="1340" cy="900" r="10"/>
+    <circle cx="1340" cy="780" r="6"/>
+    <circle cx="1500" cy="940" r="10"/>
+    <circle cx="1500" cy="1040" r="6"/>
+    <circle cx="1660" cy="860" r="10"/>
+    <circle cx="1660" cy="760" r="6"/>
+    <circle cx="1840" cy="900" r="8"/>
+  </g>
+
+  <!-- faint dot grid, lower-left -->
+  <g fill="#7dd3fc" opacity="0.18">
+    <circle cx="80" cy="920" r="3"/><circle cx="140" cy="920" r="3"/><circle cx="200" cy="920" r="3"/><circle cx="260" cy="920" r="3"/>
+    <circle cx="80" cy="960" r="3"/><circle cx="140" cy="960" r="3"/><circle cx="200" cy="960" r="3"/><circle cx="260" cy="960" r="3"/>
+    <circle cx="80" cy="1000" r="3"/><circle cx="140" cy="1000" r="3"/><circle cx="200" cy="1000" r="3"/><circle cx="260" cy="1000" r="3"/>
+  </g>
+</svg>

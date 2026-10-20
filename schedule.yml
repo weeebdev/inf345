@@ -49,7 +49,7 @@ weeks:
     module: automation
     topic: Playbooks, roles, variables
     activity: Lecture & hands-on lab
-    lecture: null
+    lecture: lectures/08-playbooks-roles-variables/slides.md
     lab_due: null
   - week: 9
     module: automation
