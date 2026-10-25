@@ -8,4 +8,5 @@ git status
 git add 
 git log --oneline 
 git commit -m
+second commit 
 
