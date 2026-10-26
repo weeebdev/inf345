@@ -55,7 +55,7 @@ weeks:
     module: automation
     topic: Idempotence & testing with Molecule
     activity: Lecture & hands-on lab
-    lecture: null
+    lecture: lectures/09-idempotence-molecule/slides.md
     lab_due: null
   - week: 10
     module: automation
