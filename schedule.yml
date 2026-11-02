@@ -61,7 +61,7 @@ weeks:
     module: automation
     topic: Ansible in production patterns
     activity: Lab work
-    lecture: null
+    lecture: lectures/10-ansible-production/slides.md
     lab_due: labs/02-automation-ansible
   - week: 11
     module: cicd
