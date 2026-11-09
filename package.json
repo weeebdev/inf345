@@ -13,6 +13,7 @@
     "lecture:08": "slidev lectures/08-playbooks-roles-variables/slides.md --open",
     "lecture:09": "slidev lectures/09-idempotence-molecule/slides.md --open",
     "lecture:10": "slidev lectures/10-ansible-production/slides.md --open",
+    "lecture:11": "slidev lectures/11-cicd-github-actions/slides.md --open",
     "build:01": "slidev build lectures/01-intro/slides.md --out dist/01-intro --base /inf345/01-intro/",
     "build:02": "slidev build lectures/02-git-github/slides.md --out dist/02-git-github --base /inf345/02-git-github/",
     "build:03": "slidev build lectures/03-containers-101/slides.md --out dist/03-containers-101 --base /inf345/03-containers-101/",
@@ -23,6 +24,7 @@
     "build:08": "slidev build lectures/08-playbooks-roles-variables/slides.md --out dist/08-playbooks-roles-variables --base /inf345/08-playbooks-roles-variables/",
     "build:09": "slidev build lectures/09-idempotence-molecule/slides.md --out dist/09-idempotence-molecule --base /inf345/09-idempotence-molecule/",
     "build:10": "slidev build lectures/10-ansible-production/slides.md --out dist/10-ansible-production --base /inf345/10-ansible-production/",
+    "build:11": "slidev build lectures/11-cicd-github-actions/slides.md --out dist/11-cicd-github-actions --base /inf345/11-cicd-github-actions/",
     "export:01": "slidev export lectures/01-intro/slides.md --output pdfs/01-intro.pdf",
     "export:02": "slidev export lectures/02-git-github/slides.md --output pdfs/02-git-github.pdf",
     "export:03": "slidev export lectures/03-containers-101/slides.md --output pdfs/03-containers-101.pdf",
@@ -33,7 +35,8 @@
     "export:08": "slidev export lectures/08-playbooks-roles-variables/slides.md --output pdfs/08-playbooks-roles-variables.pdf",
     "export:09": "slidev export lectures/09-idempotence-molecule/slides.md --output pdfs/09-idempotence-molecule.pdf",
     "export:10": "slidev export lectures/10-ansible-production/slides.md --output pdfs/10-ansible-production.pdf",
-    "export:all": "npm run export:01 && npm run export:02 && npm run export:03 && npm run export:04 && npm run export:05 && npm run export:06 && npm run export:07 && npm run export:08 && npm run export:09 && npm run export:10"
+    "export:11": "slidev export lectures/11-cicd-github-actions/slides.md --output pdfs/11-cicd-github-actions.pdf",
+    "export:all": "npm run export:01 && npm run export:02 && npm run export:03 && npm run export:04 && npm run export:05 && npm run export:06 && npm run export:07 && npm run export:08 && npm run export:09 && npm run export:10 && npm run export:11"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.2.14",

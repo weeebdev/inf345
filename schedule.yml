@@ -67,7 +67,7 @@ weeks:
     module: cicd
     topic: CI/CD concepts & GitHub Actions basics
     activity: Lecture & hands-on lab
-    lecture: null
+    lecture: lectures/11-cicd-github-actions/slides.md
     lab_due: null
   - week: 12
     module: cicd
