@@ -8,7 +8,7 @@ differently:
 | Type | Where the work happens | What's graded |
 |---|---|---|
 | **RHA labs** (Containers, Automation) | Entirely on Red Hat Academy's own cloud lab environment (DO188, RH294) — rha.ole.redhat.com | The instructor assigns the grade directly from RHA lab completion. There is nothing to submit in this repo — each lab's README just points you to the RHA lab and explains what it's grading. |
-| **GitHub-native labs** (CI/CD, Capstone) | Your fork of this repo | A real, autograded build-and-run check on your pull request — this *is* the grade, because there's no RHA equivalent to lean on |
+| **GitHub-native labs** (CI/CD, Capstone) | Your own private repo, made by **Accept** on Maru | A real, autograded build-and-run check on every push — this *is* the grade, because there's no RHA equivalent to lean on |
 
 ## Lab list
 
@@ -17,7 +17,8 @@ differently:
 2. **`02-automation-ansible/`** — Automation module. Instructions-only —
    graded entirely from RHA **RH294**.
 3. **`03-cicd-pipeline/`** — CI/CD module, GitHub-native (RHA doesn't cover
-   this topic at all).
+   this topic at all): lint → test → build → Trivy scan → publish to GHCR on
+   `v*` tags. Accept on Maru; due week 13 (Wed 25 Nov, 23:59).
 4. **`04-capstone/`** — integration project, GitHub-native, spec only for
    now (fleshed out once the first three labs have run with a real cohort).
 
