@@ -48,7 +48,7 @@ partnership) and partly on open-source tooling students can keep using
 without any subscription. Containers and Automation are graded directly
 from Red Hat Academy lab completion; the CI/CD lab and weekly practices
 are graded automatically within minutes of a push to your own practice
-repository, created for you in Maru (maru.weeebdev.online).
+repository, created for you in Maru (maru.o0o7.com).
 
 ## Instructor(s)
 
@@ -137,7 +137,7 @@ of Practice on Assessments.*
 | Final Exam — Capstone Project | Mandatory final assessment, delivered in project format (per policy, a project may substitute for a written exam): integration project + demo | 1 | 40 |
 | **Total** | | | **100** |
 
-**How you submit GitHub work:** in **Maru** (maru.weeebdev.online), sign
+**How you submit GitHub work:** in **Maru** (maru.o0o7.com), sign
 in with your SDU Google account, link your GitHub once, and press
 **Accept** on the week's practice. Maru creates your own private
 repository from the practice template; do the work there and push.
