@@ -73,7 +73,7 @@ weeks:
     module: cicd
     topic: Building & testing pipelines
     activity: Lecture & hands-on lab
-    lecture: null
+    lecture: lectures/12-building-testing-pipelines/slides.md
     lab_due: null
   - week: 13
     module: cicd
